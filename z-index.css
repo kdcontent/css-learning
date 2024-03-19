@@ -1,0 +1,27 @@
+#zindex {
+  display: block;
+}
+.zindex-1 {
+  width: 300px;
+  height: 300px;
+}
+.img-zindex {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.text {
+  color: #fff;
+}
+.zindex-2 {
+  margin-top: 130px;
+  position: relative;
+}
+.image-index {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.zindex-text {
+  color: white;
+}
