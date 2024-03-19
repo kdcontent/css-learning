@@ -1,0 +1,8 @@
+p {
+  background-color: grey;
+  color: green;
+}
+.text {
+  background-color: red !important;
+  color: blue !important;
+}
