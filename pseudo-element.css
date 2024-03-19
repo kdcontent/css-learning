@@ -1,0 +1,17 @@
+.text {
+color: #000;
+font-family: 'Times New Roman', Times, serif;
+}
+.text::first-letter {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+/* ::before */
+h1::before {
+  content: url('https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif');
+
+}
+::marker {
+  color: green;
+}
