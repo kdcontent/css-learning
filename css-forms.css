@@ -1,0 +1,21 @@
+input[type=text] {
+background-color: #000;
+color: #fff;
+}
+input[type=text]:focus {
+  background-color: green;
+  border: 2px solid #ccc;
+  padding: 20px 10px;
+  width: 200px;
+}
+
+input[type=search] {
+width: 100%;
+box-sizing: border-box;
+border: 2px solid #444;
+background-color: white;
+background-image: url('https://cdn-icons-png.flaticon.com/512/954/954591.png');
+background-size: 50px 50px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+}
