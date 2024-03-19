@@ -1,0 +1,26 @@
+.dropdown-list {
+  position: relative;
+  display: flex;
+  margin-left: 15px;
+  list-style-type: none;
+}
+.dropdown-list-list {
+  margin-left: 15px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  color: white;
+  z-index: 1;
+  margin-top: 20px;
+}
+.dropdown-home {
+  list-style-type: none;
+  padding: 10px 10px;
+}
+.dropdown-list:hover .dropdown-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
