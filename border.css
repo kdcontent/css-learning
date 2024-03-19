@@ -1,0 +1,25 @@
+/* border-radius */
+.round-corner1 {
+  border-radius: 25px;
+  background-color: greenyellow;
+  color: white;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+.round-corner2 {
+  border-radius: 25px;
+  background-color:#FCFCFC;
+  color: #030303;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid #030303;
+}
+
+/* border-image */
+.border-img {
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image: url('https://thumbs.dreamstime.com/b/sport-balls-19549556.jpg') 80 round;
+}
